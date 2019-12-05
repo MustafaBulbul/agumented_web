@@ -1,9 +1,6 @@
 /* If you're feeling fancy you can add interactivity 
     to your site with Javascript */
 
-function openjira() {  
-  window.open("https://jira.turkcell.com.tr/rest/api/latest/issue/HLY-242");
-}
 
 function hideUserDetails() {  
   var markerelement = document.getElementById("animated-marker");
@@ -105,8 +102,7 @@ function showUsers(userspageId) {
                   //mydynamictext.setAttribute("value", mytext);
                 }
             };
-  //xhttp.open("GET", "https://jira.turkcell.com.tr/rest/api/latest/issue/HLY-242", true);
-
+ 
     xhttp.open("GET", "https://reqres.in/api/users?page="+userspageId, true)
   xhttp.send();  
     
@@ -150,8 +146,7 @@ function showUserDetail(userId) {
                   //mydynamictext.setAttribute("value", mytext);
                 }
             };
-  //xhttp.open("GET", "https://jira.turkcell.com.tr/rest/api/latest/issue/HLY-242", true);
-
+  
     xhttp.open("GET", "https://reqres.in/api/users/"+userId, true)
   xhttp.send();  
   
@@ -161,11 +156,6 @@ function showUserDetail(userId) {
 
 function showColors() {
 
-   
-  
-  
-    
-    
     
   var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
@@ -218,7 +208,7 @@ function showColors() {
                   //mydynamictext.setAttribute("value", mytext);
                 }
             };
-  //xhttp.open("GET", "https://jira.turkcell.com.tr/rest/api/latest/issue/HLY-242", true);
+
 
     xhttp.open("GET", "https://reqres.in/api/unknown", true)
   xhttp.send();  
