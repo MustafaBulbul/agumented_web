@@ -24,11 +24,6 @@ function hideUserDetails() {
 function showUsers(userspageId) {
 
     
-  
-  
-    
-    
-    
   var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
@@ -135,12 +130,7 @@ function showUserDetail(userId) {
                   
                   var userAvatarImage = document.getElementById("UserDetailAvatar");
                    userAvatarImage.setAttribute("src", obj.data.avatar);
-                  
-                  
-                  
-                 
-   
-            
+ 
                 
                   
                   //mydynamictext.setAttribute("value", mytext);
